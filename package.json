@@ -1,0 +1,30 @@
+{
+  "name": "@bravejs/library-cli",
+  "version": "0.0.10",
+  "description": "Library CLI of BraveJS",
+  "main": "index.js",
+  "scripts": {
+    "install": "node ./install.js $INIT_CWD",
+    "build": "rm -rf dist && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bravejs/library-cli.git"
+  },
+  "keywords": [
+    "library-cli",
+    "library",
+    "cli"
+  ],
+  "author": "shixianqin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bravejs/library-cli/issues"
+  },
+  "homepage": "https://github.com/bravejs/library-cli#readme",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.1",
+    "rollup": "^2.70.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
