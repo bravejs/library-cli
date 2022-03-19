@@ -22,7 +22,7 @@ const defaultPackage = {
 const defaultTsconfig = {
   compilerOptions: {
     module: 'esnext',
-    target: 'esnext',
+    target: 'es5',
     sourceMap: false,
     strict: true,
     declaration: true,

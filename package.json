@@ -1,6 +1,6 @@
 {
   "name": "@bravejs/library-cli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Library CLI of BraveJS",
   "main": "index.js",
   "scripts": {
